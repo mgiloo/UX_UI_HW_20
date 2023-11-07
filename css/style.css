@@ -1,0 +1,113 @@
+.navbar{
+    background-color: #000080 !important;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.navbar-collapse {
+   margin-right: 50px;
+   margin-left: 700px;
+}
+
+.navbar .navbar-nav li a{
+    color: #FCE53D !important;
+}
+
+.dropdown-menu{
+    color: #000080;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    background-color: white;
+    color: #000080;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+    color: #FCE53D !important;
+    background-color: #000080;
+}
+
+.navbar-toggler{
+    background-color: #FCE53D;
+    opacity: 0.8;
+    border: solid 1px #FCE53D;
+}
+
+body{
+    margin: 0px;
+    padding: 0%;
+    font-family: raleway, sans-serif;
+}
+
+#Graphic{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 25%;
+    z-index: -10;
+}
+
+h1{
+    color: #000080;
+    font-weight: 600;
+    margin-left:35%;
+    margin-right: 15%;
+    margin-top: -184px;
+}
+
+h2{
+    color: #000080;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-top: 10%; 
+    font-size: 16pt;
+}
+
+h3{
+    color: #000080;
+    font-weight: 400;
+    margin-left: 30%;
+    font-size: 15pt;
+}
+
+p{
+    color: #000080;
+    font-weight: 400;
+    margin-left: 30%;
+    margin-right: 25%; 
+    font-size: 12pt;
+}
+
+#project-img{
+    margin-top: 100px;
+    margin-right: 270px;
+}
+
+.flex-Container{
+    display: flex;
+}
+
+
+.carousel-item{
+    margin-left: 25%;
+    margin-right: 45%;
+    margin-top: 5%;
+    margin-bottom: 75px;
+    box-shadow: #000080;
+
+}
+
+.form-content{
+    background-color: #D7D7F1;
+    padding-top: 20px;
+
+}
+
+.form-label{
+    color: #000080;
+}
+.text-center {
+    color: #FCE53D;
+
+}
