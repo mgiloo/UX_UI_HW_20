@@ -80,12 +80,16 @@ p{
 }
 
 #project-img{
-    margin-top: 100px;
+    margin-top: 85px;
     margin-right: 270px;
 }
 
 .flex-Container{
     display: flex;
+}
+
+.hero{
+   margin-right: 10px; 
 }
 
 
