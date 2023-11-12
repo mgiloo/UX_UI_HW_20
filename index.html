@@ -16,6 +16,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PORTFOLIO
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">TREK1 MOBILE APP</a>
+                  <a class="dropdown-item" href="#">NOMAD MOBILE APP</a>
+                  <a class="dropdown-item" href="#">FCC RESPONSIVE WEBSITE</a>
+                  <a class="dropdown-item" href="#">GREEN TREE RESPONSIVE WEBSITE</a>
+                </div>
+              </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
             </li>
@@ -25,17 +36,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">CONTACT</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                PORTFOLIO
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">TREK1 MOBILE APP</a>
-                <a class="dropdown-item" href="#">NOMAD MOBILE APP</a>
-                <a class="dropdown-item" href="#">FCC RESPONSIVE WEBSITE</a>
-                <a class="dropdown-item" href="#">GREEN TREE RESPONSIVE WEBSITE</a>
-              </div>
-            </li>
+            
           </ul>
         </div>
       </nav>
@@ -47,22 +48,42 @@
 
     <h1> DESIGN PHILOSOPHY</h1>
     <P>My design principles hinge on collaboration, creative process, and research. I am a visual communicator who loves everything design. Research brings clarity and breaks down complex problems into small chunks that can be digested to help find meaningful solutions. Creative process—step-by-step analysis is essential to my work to ensure everything on the table has been reviewed and not overlooked. The process is strong and effective when you have great collaborators or partners who share a similar vision and have great empathy for their users.</P>
-   
+ 
+    <!-- Divider -->
+    <div class="BurgundyBar">
+        <img src="images/Graphic Heading_2.png" alt="GraphicBar" width="820px" height="15px"> 
+    </div>
+
     <!-- Project Overview -->
-    <div class="flex-Container" class="inline-block">
-    <div class="hero">
-        <h2> FCC Responsive Web Design</h2>
-        <h3>Project Overview</h3>
-        <p>
-            The FCC website redesign gives it an approachable entrance with a simple menu and language that will be understood by anyone who visits the website. This will enable them to easily find information. The main navigation of the current website is very confusing. The two main tabs are invisibly positioned in a place where it is not obvious that’s how you get to needed pages. The search field does not return any desired results making this feature unreliable and may make users leave the website. The redesign gives the site a trusted and vibrant feel.
-        </p>
-    </div>
-        <div id="project-img">
-            <img src="images/MAP Port_FCC.png" width="350" height="333">
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2>Project Overview</h2>
+            <h3> FCC Responsive Web Design</h3>
+            <p id="para1">
+                The FCC website redesign gives it an approachable entrance with a simple menu and language that will be understood by anyone who visits the website. This will enable them to easily find information. The main navigation of the current website is very confusing. The two main tabs are invisibly positioned in a place where it is not obvious that’s how you get to needed pages. The search field does not return any desired results making this feature unreliable and may make users leave the website. The redesign gives the site a trusted and vibrant feel.
+            </p>
+          </div>
+          <div class="col-md">
+            <div id="project-img">
+                <img src="images/MAP Port_FCC.png" width="425" height="385">
+            </div>
+          </div>
+
         </div>
-    </div>
-    </div>
+      </div>
+
+        <!-- Divider -->
+        <div class="BurgundyBar">
+            <img src="images/Graphic Heading_2.png" alt="GraphicBar" width="820px" height="15px"> 
+        </div>
+
     <!-- Carousel -->
+
+    <div class="col-sm">
+        <h4>Creative Process</h4>
+    </div>    
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -131,7 +152,35 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    <!-- End Carousel -->
 
+          <!-- Final Outcome container -->
+      <div class="col-sm">
+        <h4>Final Outcome</h4>
+        <p id="para2">The redesign of the FCC website gave it an approachable entrance using a simple menu and language that is understood by anyone who visits the website. The navigation was set after a card-sorting process that revealed how users grouped ideas. The user interface style generated is supposed to help project an image of dependability, and authenticity with a calm yet assertive personality. The refreshed color palette exudes energy painting an agency willing to connect and guide its constituents through collaboration and effective communication. </p>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+                <div id="final_outcome">
+                    <img src="images/FO_FCC Laptop.gif" width="800px">
+                </div>
+          </div>
+          
+
+          <div class="col-sm">
+            <div id="final_outcome">
+                <img src="images/FO_FCC Mobile.gif" height="470px">
+            </div>
+          </div> 
+          
+          </div>   
+        </div>
+    </div>    
+          
+        <!-- End Final Outcome container -->
+    
  <!-- Remove the container if you want to extend the Footer to full width. -->
 
 
@@ -144,7 +193,7 @@
           <!--Grid row-->
           <div class="row d-flex justify-content-center">
             <!--Grid column-->
-            <div class="col-auto">
+            <div class="col-auto"> 
               <p class="pt-2">
                 <strong>Sign up for our newsletter</strong>
               </p>
@@ -152,7 +201,7 @@
             <!--Grid column-->
   
             <!--Grid column-->
-            <div class="col-md-5 col-12">
+            <div class="col-md-5 col-6">
               <!-- Email input -->
               <div class="form-outline mb-4">
                 <input type="email" id="form5Example2" class="form-control" />

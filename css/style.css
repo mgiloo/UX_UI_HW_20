@@ -3,24 +3,30 @@
 }
 
 .navbar-brand{
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .navbar-collapse {
    margin-right: 50px;
-   margin-left: 700px;
+   margin-left: 70px;
+   color: #FCE53D;
 }
 
 .navbar .navbar-nav li a{
     color: #FCE53D !important;
 }
 
-.dropdown-menu{
+#navbarNavDropdown{
+   margin-left: 45%;
+   padding-right: 10px;
+}
+
+.dropdown-item{
     color: #000080;
 }
 
 .navbar .nav-item .dropdown-menu .dropdown-item{
-    background-color: white;
+    background-color: #ffffff;
     color: #000080;
 }
 
@@ -31,7 +37,6 @@
 
 .navbar-toggler{
     background-color: #FCE53D;
-    opacity: 0.8;
     border: solid 1px #FCE53D;
 }
 
@@ -56,20 +61,29 @@ h1{
     margin-top: -184px;
 }
 
+.BurgundyBar{
+    padding-left: 25%;
+    padding-bottom: -10px;
+    margin-top: 60px;
+}
+
+
 h2{
     color: #000080;
-    font-weight: 500;
-    margin-left: 30%;
-    margin-top: 10%; 
-    font-size: 16pt;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size: 20pt;
 }
 
 h3{
     color: #000080;
-    font-weight: 400;
-    margin-left: 30%;
-    font-size: 15pt;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-top: 5%; 
+    font-size: 16pt;
 }
+
 
 p{
     color: #000080;
@@ -79,39 +93,114 @@ p{
     font-size: 12pt;
 }
 
+#para1{
+    color: #000080;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-right: 5%; 
+    font-size: 12pt;
+    line-height: 1.8;
+}
+
 #project-img{
-    margin-top: 85px;
-    margin-right: 270px;
+    margin-top: 45px;
+    margin-right: -10%;
+    margin-left: 20px;
 }
 
 .flex-Container{
     display: flex;
+    grid-template-columns: 1fr 1fr;
 }
 
 .hero{
-   margin-right: 10px; 
+   margin-right: -80%;
+   margin-left: 6%;
+   width: 1000px; 
 }
 
 
-.carousel-item{
+.d-block{
     margin-left: 25%;
     margin-right: 45%;
     margin-top: 5%;
     margin-bottom: 75px;
     box-shadow: #000080;
+    border: solid 1px #000080;
+}
+
+h4{
+    color: #000080;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 30pt;
+}
+
+#final_outcome{
+    margin-top: 45px;
+    margin-bottom: 60px;
 
 }
 
-.form-content{
-    background-color: #D7D7F1;
-    padding-top: 20px;
+.carousel-control-prev{
+    background-color: #000080;
+}
 
+.carousel-control-next{
+    background-color: #000080;
+}
+
+.carousel-control-prev-icon{
+    background-color: #000080;
+}
+
+
+.form-content{
+    background-color: #f3d7ca;
+    padding-top: 30px;
+    border-top: solid 9px #F26322;
+
+}
+
+#para2{
+    color: #000080;
+    font-weight: 400;
+    margin-left: 23%;
+    margin-right: 23%; 
+    font-size: 14pt;
+    line-height: 1.6;
+}
+
+.pt-2{
+    width: 150px;
+}
+
+.form-outline{
+    padding-left: 20px;
 }
 
 .form-label{
     color: #000080;
+    padding: 15px;
 }
 .text-center {
     color: #FCE53D;
 
+}
+
+.btn{
+    background-color: #000080;
+    color: #FCE53D;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .BurgundyBar{
+        margin-top: -125px;
+        margin-bottom: 200px;
+        align-items: center;
+    } 
 }
